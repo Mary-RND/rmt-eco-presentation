@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Экосистема входа в контур НПО РМТ — презентация для производителя медоборудования</title>
+<meta name="description" content="Готовая продающая презентация для производителя медоборудования: 12 слайдов, 16:9, PPTX + PDF. Экосистема из четырёх слоёв: оборудование, КТРУ и ГОСТ, стандарты оснащения, клинические рекомендации. 4 000 ₽.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Экосистема входа в контур НПО РМТ — презентация">
+<meta property="og:description" content="12 слайдов, PPTX + PDF. Продающая презентация для производителя медоборудования. 4 000 ₽.">
+<meta property="og:image" content="screenshots/preview.png">
+<meta name="theme-color" content="#26A69A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23EEF2F3'/%3E%3Cpath d='M16 5l11 11-11 11L5 16z' fill='%2326A69A'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#EEF2F3; --paper:#FFFFFF; --ink:#161C20; --grey:#525C64;
+    --light:#7E8A92; --teal:#26A69A; --deep:#13766C;
+    --mint:#D8EEEB; --line:#DCE5E6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    line-height:1.55; -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{width:min(1200px,calc(100% - 40px));margin:0 auto}
+
+  /* header */
+  .top{position:sticky;top:0;z-index:20;background:rgba(238,242,243,.92);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .top-in{display:flex;align-items:center;gap:16px;height:64px}
+  .mark{width:30px;height:30px;flex:none;position:relative}
+  .mark::before{content:"";position:absolute;inset:0;background:var(--teal);
+    transform:rotate(45deg);border-radius:5px}
+  .mark::after{content:"";position:absolute;inset:9px;background:var(--bg);
+    transform:rotate(45deg);border-radius:2px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em}
+  .brand small{display:block;font-weight:500;font-size:11px;color:var(--light);letter-spacing:.08em}
+  .top-links{margin-left:auto;display:flex;align-items:center;gap:18px;font-size:14px;font-weight:600}
+  .top-links a:hover{color:var(--deep)}
+  .price-pill{background:var(--ink);color:#fff;padding:8px 14px;border-radius:999px;font-size:13px}
+
+  /* hero */
+  .hero{padding:64px 0 8px}
+  .eyebrow{display:flex;align-items:center;gap:10px;color:var(--deep);
+    font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+  .eyebrow::before{content:"";width:26px;height:4px;background:var(--teal);border-radius:2px}
+  h1{font-size:clamp(30px,5vw,54px);line-height:1.06;letter-spacing:-.02em;
+    margin:18px 0 20px;max-width:900px}
+  h1 em{font-style:normal;color:var(--deep)}
+  .lead{font-size:clamp(15px,1.6vw,18px);color:var(--grey);max-width:720px}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 0}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:#fff;
+    padding:14px 24px;border-radius:999px;font-weight:700;font-size:15px;
+    border:1px solid var(--teal);transition:.2s}
+  .btn:hover{background:var(--deep);border-color:var(--deep);transform:translateY(-1px)}
+  .btn.ghost{background:transparent;color:var(--ink);border-color:#C7D2D4}
+  .btn.ghost:hover{border-color:var(--teal);color:var(--deep);background:#fff}
+  .meta{display:flex;flex-wrap:wrap;gap:28px;margin-top:40px;padding-top:24px;
+    border-top:1px solid var(--line)}
+  .meta div strong{display:block;font-size:24px;letter-spacing:-.01em}
+  .meta div span{font-size:12.5px;color:var(--light);font-weight:600;letter-spacing:.04em}
+
+  .cover{margin:44px 0 80px;position:relative}
+  .cover img{width:100%;border-radius:18px;box-shadow:0 30px 70px -30px rgba(16,60,56,.45)}
+  .cover-note{position:absolute;right:18px;bottom:18px;background:rgba(22,28,32,.82);
+    color:#fff;font-size:12px;font-weight:600;padding:8px 14px;border-radius:999px}
+
+  /* section */
+  section{padding:0 0 84px}
+  .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
+    margin-bottom:32px;flex-wrap:wrap}
+  h2{font-size:clamp(24px,3vw,36px);line-height:1.12;letter-spacing:-.015em;margin-top:12px}
+  .sec-lead{color:var(--grey);max-width:520px;font-size:15px}
+
+  /* layers */
+  .layers{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .layer{background:var(--paper);border:1px solid var(--line);border-radius:16px;
+    padding:22px;position:relative;overflow:hidden}
+  .layer b{display:block;width:34px;height:34px;line-height:34px;text-align:center;
+    background:var(--mint);color:var(--deep);border-radius:9px;font-size:14px;margin-bottom:16px}
+  .layer h3{font-size:15px;line-height:1.25;margin-bottom:8px}
+  .layer p{font-size:13.5px;color:var(--grey)}
+
+  /* slides */
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+  .slide{background:var(--paper);border:1px solid var(--line);border-radius:14px;
+    overflow:hidden;transition:.2s}
+  .slide:hover{transform:translateY(-3px);box-shadow:0 18px 40px -24px rgba(16,60,56,.5)}
+  .slide a{display:block}
+  .slide .num{display:flex;justify-content:space-between;align-items:center;
+    padding:11px 16px;font-size:12px;font-weight:700;color:var(--light);letter-spacing:.06em}
+  .slide .num i{font-style:normal;color:var(--teal)}
+
+  /* buy */
+  .buy{background:linear-gradient(120deg,var(--deep),#0E5C54);color:#fff;
+    border-radius:24px;padding:clamp(28px,4vw,52px);display:grid;
+    grid-template-columns:1.25fr .75fr;gap:36px;align-items:center;position:relative;overflow:hidden}
+  .buy::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;
+    border:40px solid rgba(255,255,255,.08);border-radius:50%}
+  .buy h2{color:#fff;margin:10px 0 14px}
+  .buy p{color:#C9E5E1;max-width:520px;font-size:15px}
+  .buy .eyebrow{color:#9FD8D1}
+  .buy .eyebrow::before{background:#9FD8D1}
+  .price-box{position:relative;z-index:1;background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.22);border-radius:18px;padding:26px}
+  .price-box .sum{font-size:46px;font-weight:800;letter-spacing:-.02em;line-height:1}
+  .price-box .sum small{font-size:15px;font-weight:600;color:#C9E5E1;letter-spacing:0}
+  .price-box ul{list-style:none;margin:18px 0 22px;font-size:13.5px;color:#DDF0ED}
+  .price-box li{padding-left:18px;position:relative;margin-bottom:7px}
+  .price-box li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;
+    background:var(--teal);transform:rotate(45deg)}
+  .price-box .btn{width:100%;justify-content:center;background:#fff;color:var(--deep);
+    border-color:#fff}
+  .price-box .btn:hover{background:var(--mint);border-color:var(--mint);color:var(--deep)}
+
+  /* notes */
+  .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+  .note{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px;
+    font-size:13px;color:var(--grey)}
+  .note strong{display:block;color:var(--ink);margin-bottom:4px;font-size:13.5px}
+
+  footer{border-top:1px solid var(--line);padding:34px 0 46px;font-size:13px;color:var(--light)}
+  .foot-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+  .foot-in a{font-weight:600;color:var(--grey)}
+  .foot-in a:hover{color:var(--deep)}
+  .foot-links{display:flex;gap:18px;flex-wrap:wrap}
+
+  @media (max-width:900px){
+    .layers{grid-template-columns:repeat(2,1fr)}
+    .buy{grid-template-columns:1fr}
+    .notes{grid-template-columns:1fr}
+    .top-links a:not(.price-pill){display:none}
+  }
+  @media (max-width:640px){
+    .grid{grid-template-columns:1fr}
+    .layers{grid-template-columns:1fr}
+    .hero{padding-top:40px}
+    .meta{gap:20px}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true"></span>
+      <span>РМТ-МЕД<small>ПРЕЗЕНТАЦИЯ ДЛЯ ПРОИЗВОДИТЕЛЯ</small></span>
+    </a>
+    <nav class="top-links">
+      <a href="#slides">Слайды</a>
+      <a href="#inside">Что внутри</a>
+      <a href="https://mary-rnd.github.io/medtech-landing/" target="_blank" rel="noopener">MedTech ↗</a>
+      <a class="price-pill" href="#buy">4 000 ₽</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <p class="eyebrow">Кейс P2 · Презентация · MedTech</p>
+    <h1>Экосистема входа в <em>закрытый контур</em> закупок за 12 дней</h1>
+    <p class="lead">Продающая презентация для производителя медоборудования: 12 слайдов, которые объясняют закупщику, почему аппарат нужно брать вместе с нормативным и клиническим пакетом — и почему комиссия НПО РМТ принимает его с первого раза.</p>
+    <div class="hero-actions">
+      <a class="btn" href="presentation/rmt-ecosystem-presentation-v2.pdf" target="_blank" rel="noopener">Смотреть PDF ↗</a>
+      <a class="btn ghost" href="presentation/rmt-ecosystem-presentation-v2.pptx" download>Скачать PPTX</a>
+      <a class="btn ghost" href="https://t.me/marypetrova6" target="_blank" rel="noopener">Заказать за 4 000 ₽</a>
+    </div>
+    <div class="meta">
+      <div><strong>12</strong><span>СЛАЙДОВ</span></div>
+      <div><strong>16:9</strong><span>1920 × 1080</span></div>
+      <div><strong>40 → 12</strong><span>ДНЕЙ ДО КОНТУРА</span></div>
+      <div><strong>PPTX + PDF</strong><span>РЕДАКТИРУЕМЫЙ ТЕКСТ</span></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <figure class="cover">
+      <img src="screenshots/slide-01.png" alt="Обложка презентации «Экосистема входа в закрытый контур закупок за 12 дней»" width="1280" height="720">
+      <figcaption class="cover-note">Слайд 1 · обложка</figcaption>
+    </figure>
+  </div>
+
+  <section id="slides">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Все 12 слайдов</p>
+          <h2>От боли закупщика — к защите на комиссии</h2>
+        </div>
+        <p class="sec-lead">Нажмите на слайд, чтобы открыть его в полном размере. В PPTX весь текст остаётся редактируемым.</p>
+      </div>
+      <div class="grid">
+        <article class="slide"><a href="screenshots/slide-01.png" target="_blank" rel="noopener"><div class="num"><span>ОБЛОЖКА</span><i>01</i></div><img src="screenshots/slide-01.png" alt="Слайд 1 — обложка" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-02.png" target="_blank" rel="noopener"><div class="num"><span>ПРОБЛЕМА ЗАКУПЩИКА</span><i>02</i></div><img src="screenshots/slide-02.png" alt="Слайд 2 — почему заявки застревают" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-03.png" target="_blank" rel="noopener"><div class="num"><span>ЧЕТЫРЕ СЛОЯ</span><i>03</i></div><img src="screenshots/slide-03.png" alt="Слайд 3 — ключевые возможности" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-04.png" target="_blank" rel="noopener"><div class="num"><span>СЛОЙ 1 · ОБОРУДОВАНИЕ</span><i>04</i></div><img src="screenshots/slide-04.png" alt="Слайд 4 — оборудование и сервис" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-05.png" target="_blank" rel="noopener"><div class="num"><span>СЛОЙ 2 · КТРУ И ГОСТ</span><i>05</i></div><img src="screenshots/slide-05.png" alt="Слайд 5 — КТРУ и ГОСТ" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-06.png" target="_blank" rel="noopener"><div class="num"><span>СЛОЙ 3 · СТАНДАРТЫ</span><i>06</i></div><img src="screenshots/slide-06.png" alt="Слайд 6 — стандарты оснащения" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-07.png" target="_blank" rel="noopener"><div class="num"><span>СЛОЙ 4 · КЛИНИКА</span><i>07</i></div><img src="screenshots/slide-07.png" alt="Слайд 7 — клинические рекомендации" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-08.png" target="_blank" rel="noopener"><div class="num"><span>ТАЙМЛАЙН 40 → 12 ДНЕЙ</span><i>08</i></div><img src="screenshots/slide-08.png" alt="Слайд 8 — таймлайн комиссии" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-09.png" target="_blank" rel="noopener"><div class="num"><span>РЕЗУЛЬТАТЫ</span><i>09</i></div><img src="screenshots/slide-09.png" alt="Слайд 9 — результаты внедрения" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-10.png" target="_blank" rel="noopener"><div class="num"><span>РИСКИ И ГАРАНТИИ</span><i>10</i></div><img src="screenshots/slide-10.png" alt="Слайд 10 — риски закупщика" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-11.png" target="_blank" rel="noopener"><div class="num"><span>ПИЛОТ В 3 ШАГА</span><i>11</i></div><img src="screenshots/slide-11.png" alt="Слайд 11 — пилотный запуск" loading="lazy" width="1280" height="720"></a></article>
+        <article class="slide"><a href="screenshots/slide-12.png" target="_blank" rel="noopener"><div class="num"><span>КОНТАКТЫ</span><i>12</i></div><img src="screenshots/slide-12.png" alt="Слайд 12 — контакты" loading="lazy" width="1280" height="720"></a></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="inside">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Логика оффера</p>
+          <h2>Что продаёт презентация</h2>
+        </div>
+        <p class="sec-lead">Не характеристики прибора, а снятие рисков закупщика: комплектация, нормативы, кабинет и клиническое применение собираются в один пакет.</p>
+      </div>
+      <div class="layers">
+        <article class="layer"><b>01</b><h3>Оборудование и сервис</h3><p>РУ, техпаспорт, модульные слоты, регламент ТО и складской резерв ЗИП.</p></article>
+        <article class="layer"><b>02</b><h3>КТРУ и ГОСТ</h3><p>Таблица «код ↔ артикул ↔ паспорт», декларации и протоколы в одном пакете.</p></article>
+        <article class="layer"><b>03</b><h3>Стандарты оснащения</h3><p>Layout-схема кабинета, чек-лист приёмки и фотоотчёт готовности площадки.</p></article>
+        <article class="layer"><b>04</b><h3>Клинические рекомендации</h3><p>Протокол применения, две сессии обучения врачей и эксперт на защите в комиссии.</p></article>
+      </div>
+      <div class="notes">
+        <div class="note"><strong>Цифры-демо</strong>3 филиала, 28 позиций КТРУ и 0 отклонений на слайде 9 — демонстрационные. Подставляются фактические данные заказчика.</div>
+        <div class="note"><strong>Контакты-плейсхолдеры</strong>Слайд 12 содержит шаблонные контакты. Замена на ваши — бесплатно при покупке.</div>
+        <div class="note"><strong>Редактируемый PPTX</strong>Текст остаётся текстом PowerPoint: меняются заголовки, цифры, контакты и подписи без дизайнера.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="buy">
+    <div class="wrap">
+      <div class="buy">
+        <div>
+          <p class="eyebrow">Готовый файл · без подписки</p>
+          <h2>Заберите презентацию целиком</h2>
+          <p>PPTX с редактируемым текстом, PDF для отправки клиенту и 12 PNG для писем и соцсетей. Замена контактов и логотипа — бесплатно. Адаптация под ваш бренд и фотографии оборудования — от 2 500 ₽.</p>
+        </div>
+        <div class="price-box">
+          <div class="sum">4 000 ₽ <small>за комплект</small></div>
+          <ul>
+            <li>12 слайдов 16:9</li>
+            <li>PPTX + PDF + 12 PNG</li>
+            <li>Замена контактов и логотипа</li>
+            <li>Передача в течение рабочего дня</li>
+          </ul>
+          <a class="btn" href="https://t.me/marypetrova6" target="_blank" rel="noopener">Написать в Telegram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>© 2026 Марина Петрушина · MedTech · демо-материалы для ознакомления</span>
+    <nav class="foot-links">
+      <a href="https://mary-rnd.github.io/medtech-landing/" target="_blank" rel="noopener">Лендинг MedTech ↗</a>
+      <a href="mailto:mar.petrushina@yandex.ru">Почта</a>
+      <a href="https://t.me/marypetrova6" target="_blank" rel="noopener">Telegram</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
